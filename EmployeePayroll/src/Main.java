@@ -1,4 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+public class Main {
+    static void main(String[] args) {
+        Employee emp1 = new Employee("Kader", 20000);
+        emp1.calculatePay();
+
+        Employee emp2 = new Employee("Majed", 15000);
+        emp2.calculatePay();
+    }
 }
