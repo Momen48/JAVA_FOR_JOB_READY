@@ -8,9 +8,13 @@ public class Employee
         this.name = name;
         this.salary = salary;
     }
-    public  void calculatePay()
+    public  double calculatePay()
     {
         salary += salary * 0.25;
-        System.out.println(name + " earns " + salary);
+        return salary;
+    }
+    public void  display()
+    {
+        System.out.println(name + " EARNS " + calculatePay());
     }
 }
