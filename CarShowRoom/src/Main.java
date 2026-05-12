@@ -1,4 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+public class Main {
+    static void main(String[] args) {
+        CarShowRoom c1 = new CarShowRoom("BMW", 100000);
+        c1.display();
+
+        CarShowRoom c2 = new CarShowRoom("Audi", 120000);
+        c2.display();
+    }
 }
