@@ -1,4 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+
+
+public class Main {
+    static void main(String[] args) {
+        Library b1 = new Library("Java");
+        b1.display();
+        b1.issueBook();
+        b1.display();
+        b1.returnBook();
+        b1.display();
+    }
 }
